@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+body{
+    height: 2000px;
+}
+.border{
+    border: 0.5px solid #000;                                  
+}
+h1{
+    text-shadow: 10px 10px lightblue;
+}
+header, footer{
+    height: 60px
+}
+header{
+    background-color: #808080;
+    position: sticky;
+    top: 0px;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+footer{
+    background-color: #ffc0cb ;
+}
+article{
+    background-color: #ffa500;
+    
+}      
+section{
+    background-color: #0000ff;
+}
+
+article, section{
+    height: 200px;
+
+}
+aside{
+
+    height: 400px;
+    width: auto;
+    background-image: url("/img/beach-van.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.float-left{
+    float: left;
+}
+.clearfix{
+    clear: both;
+}
+#article_section_column {
+    width: 60%;
+}
+#aside_column {
+    width: 40%;
+}
+li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;  
+}
+a:link{
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    background-color: bisque;
+} 
+a:focus{
+    color: red;
+    font-weight: 600;
+}
